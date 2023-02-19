@@ -282,3 +282,43 @@ main{
     font-weight: bold;
     color: var(--clr-dark-blue);
 }
+
+.newsletter{
+    margin: 0px auto;
+    padding: 160px 0px;
+    width: 70%;
+    text-align: center;
+}
+
+.newsletter-title{
+    font-size: 40px;
+    color: var(--clr-white);
+}
+
+.newsletter-description{
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: var(--clr-white);
+}
+
+.email-input{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-input input{
+    padding: 12px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    width: 60%;
+    font-weight: medium;
+}
+
+.email-input button{
+    padding: 12px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: medium;
+}
