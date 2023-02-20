@@ -88,3 +88,16 @@ p{
     padding-bottom: 36px;
 }
 
+/*Partners*/
+
+.partners{
+    margin-top: 64px    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner-logo{
+    transform: scale(0.7);
+    object-fit: cover;
+}
