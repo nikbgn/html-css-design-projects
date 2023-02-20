@@ -4,6 +4,7 @@
     --clr-light-dark: #333333;
     --clr-purple: #BFAFF2;
     --clr-light-orange: #F8D57E;
+    --clr-lighter-orange: #FDF5DF;
 }
 
 /*Global*/
@@ -91,9 +92,10 @@ p{
 /*Partners*/
 
 .partners{
+    margin: 64px auto;
+    width: 77%;
     border-top: 1px solid var(--clr-light-dark);
     border-bottom: 1px solid var(--clr-light-dark);
-    margin-top: 64px;
     padding: 12px 0px;
     display: flex;
     align-items: center;
@@ -104,3 +106,13 @@ p{
     transform: scale(0.7);
     object-fit: cover;
 }
+
+/*Dashboard showcase*/
+
+.dashboard-showcase .image-holder{
+    width: 80%;
+    background-color: var(--clr-lighter-orange);
+    border-radius: 15px;
+    margin: 0px auto;
+}
+
