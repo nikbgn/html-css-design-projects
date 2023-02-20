@@ -237,5 +237,6 @@ footer{
     border: none;
     border-radius: 15px;
     background-color: var(--clr-light-dark);
-    color: rgba(255, 255, 255, 0.400    );
+    color: rgba(255, 255, 255, 0.400);
+    margin-right: 16px;
 }
