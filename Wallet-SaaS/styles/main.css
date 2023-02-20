@@ -147,3 +147,39 @@ p{
     color: white;
     font-weight: 600;
 }
+
+/*Testimonial*/
+
+.testimonial-card{
+    width: 70%;
+    margin: 64px auto;
+    padding: 84px 168px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    background-color: var(--clr-purple);
+}
+
+.testimonial-text{
+    width: 70%;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--clr-primary);
+    opacity: 1;
+}
+
+.testimonial-author-info{
+    display: flex;  
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.testimonial-author-info img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
