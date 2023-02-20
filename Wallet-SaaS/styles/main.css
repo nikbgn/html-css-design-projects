@@ -5,3 +5,40 @@
     --clr-purple: #BFAFF2;
     --clr-light-orange: #F8D57E;
 }
+
+/*Global*/
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--clr-primary);
+}
+
+.logo{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.btn-purple{
+    border: none;
+    border-radius: 15px;
+    background-color: var(--clr-purple);    
+    color: white;
+    padding: 10px 60px;
+}
+
+/*Navigation*/
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 25px 50px;
+}
+
+.navigation a{
+    margin-left: auto;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
