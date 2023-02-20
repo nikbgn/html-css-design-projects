@@ -92,7 +92,7 @@ p{
 
 .partners{
     border-top: 1px solid var(--clr-light-dark);
-    border-top: 1px solid var(--clr-light-dark);
+    border-bottom: 1px solid var(--clr-light-dark);
     margin-top: 64px;
     padding: 12px 0px;
     display: flex;
