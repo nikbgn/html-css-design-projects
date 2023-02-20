@@ -116,3 +116,34 @@ p{
     margin: 0px auto;
 }
 
+
+/*Benefits*/
+
+.benefits-grid{
+    margin: 150px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+    width: 60%;
+}
+
+
+.benefits-card{
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+.benefit-card-description{
+    width: 80%;
+}
+
+
+.benefit-card-title{
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
