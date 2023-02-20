@@ -12,6 +12,12 @@ body{
     background-color: var(--clr-primary);
 }
 
+p{
+    font-size: 18px;
+    opacity: 0.4;
+    color: white;
+}
+
 .logo{
     color: white;
     font-size: 24px;
@@ -24,6 +30,14 @@ body{
     background-color: var(--clr-purple);    
     color: white;
     padding: 10px 60px;
+}
+
+.btn-primary{
+    border: none;
+    border-radius: 15px;
+    background-color: var(--clr-light-orange);
+    color: var(--clr-light-dark);
+    padding: 10px 35px;
 }
 
 /*Navigation*/
@@ -42,3 +56,35 @@ body{
     color: white;
     font-size: 18px;
 }
+
+/*Hero*/
+
+.hero{
+    margin-top: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .image-holder{
+    background-color: var(--clr-light-dark);
+}
+
+.questions-main{
+    display: block;
+    width: 50%;
+}
+
+.main-section-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    width: 60%;
+    padding-bottom: 16px;
+}
+
+.main-section-description{
+    width: 45%;
+    padding-bottom: 36px;
+}
+
