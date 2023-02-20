@@ -188,11 +188,54 @@ p{
 /*Questions*/
 
 .questions{
-    margin: 64px 0px    ;
+    margin: 64px 0px;
     display: flex;
     justify-content: center;
 }
 
 .questions-main{
     width: 44%;
+}
+
+
+/*Footer*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+    border-top: 1px solid var(--clr-light-dark);
+    padding: 64px 0px;
+}
+
+.footer-links li{
+    display: inline;
+    margin-left: 16px;
+}
+
+.footer-links span{
+    color: white;
+}
+
+.footer-links li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.footer-newsletter span{
+    display: block;
+    color: white;
+    padding-bottom: 4px;
+}
+
+.footer-newsletter input{
+    padding: 12px 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--clr-light-dark);
+    color: rgba(255, 255, 255, 0.400    );
 }
