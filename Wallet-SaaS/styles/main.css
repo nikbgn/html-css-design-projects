@@ -183,3 +183,16 @@ p{
     height: 75px;
     border-radius: 50%;
 }
+
+
+/*Questions*/
+
+.questions{
+    margin: 64px 0px    ;
+    display: flex;
+    justify-content: center;
+}
+
+.questions-main{
+    width: 44%;
+}
