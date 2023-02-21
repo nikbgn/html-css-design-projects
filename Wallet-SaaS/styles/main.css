@@ -240,3 +240,167 @@ footer{
     color: rgba(255, 255, 255, 0.400);
     margin-right: 16px;
 }
+
+
+@media(max-width: 600px){
+
+    /*Navigation*/
+
+    .navigation a, .navigation button{
+        display: none;
+    }
+
+    .navigation .logo{
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    /*Hero*/
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .questions-main {
+        gap: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 48px;
+    }
+
+    .hero .image-holder{
+        width: 80%;
+        background-color: var(--clr-light-dark);
+    }
+
+    .main-section-title{
+        font-weight: 600;
+        color: white;
+        padding-bottom: 16px;
+        width: 85%;
+        text-align: center;
+    }
+
+    .main-section-description {
+        width: 80%; 
+        padding-bottom: 36px;
+        text-align: center;
+    }
+    
+    .questions-main button{
+        display: block;
+    }
+
+    /*Partners*/
+
+    .partners{
+        width: 50%;
+        flex-wrap: wrap;
+    }
+
+    .partner-logo{
+        transform: scale(0.5);
+    }
+
+    /*Benefits*/
+
+    .benefits-grid {
+        margin: 150px auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 32px;
+        width: 60%;
+    }
+
+    /*Testimonial*/
+    .testimonial-card {
+        width: 60%;
+        margin: 64px auto;
+        padding: 40% 1rem;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        background-color: var(--clr-purple);
+        text-align: center;
+    }
+    .testimonial-text {
+        width: 100%; 
+        font-size: 24px;
+        font-weight: 600;
+        color: var(--clr-primary);
+        opacity: 1;
+    }
+    .testimonial-author-info{
+        gap: 1%;
+    }
+
+    .testimonial-author-info img{
+        height: 60px;
+        width: 60px;
+    }
+
+    /*Questions*/
+
+    .main-section-title{
+        font-size: 48px;
+    }
+
+    .questions {
+        margin: 64px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+    }
+
+    .questions-main {
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 48px;
+    }
+
+
+    /*Footer*/
+
+    footer{
+        flex-direction: column-reverse;
+    }
+
+    .footer-links li{
+        display: block;
+        margin-top: 12px;
+    }
+
+    .footer-links span{
+        margin-top: 16px;
+    }
+
+    .footer-newsletter{
+        display: grid;
+        align-items: center;
+    }
+
+    .footer-newsletter input {
+        padding: 12px 30px;
+        border: none;
+        border-radius: 15px;
+        background-color: var(--clr-light-dark);
+        color: rgba(255, 255, 255, 0.400);
+        margin: 8px 0px;
+    }
+}
+
